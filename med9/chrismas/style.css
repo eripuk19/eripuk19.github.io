@@ -1,0 +1,15 @@
+html {
+background-color: lightpink;
+}
+
+h1 {
+font-size: 100px;
+color:blue;
+text-align: center;
+}
+
+img {
+
+border:30px double lightblue ;
+width :300px;
+margin:10px;
