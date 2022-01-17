@@ -1,0 +1,20 @@
+h2{
+	padding:50px;
+	margin:20px;
+}
+
+.grad1{
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(228,182,242,1) 100%);
+}
+
+.grad2{
+background: linear-gradient(90deg, rgba(242,93,108,1) 0%, rgba(139,143,255,1) 100%);
+}
+
+.grad3{
+background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(184,5,119,1) 25%, rgba(79,70,183,1) 50%, rgba(143,75,252,1) 75%, rgba(103,241,255,1) 100%); 
+}
+
+.grad4{
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,0,0,1) 50%, rgba(0,39,255,1) 100%);
+ }
