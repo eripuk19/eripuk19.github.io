@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Quintessential&family=Roboto:wght@100&display=swap');
+
+
+h1 {
+	background-color: lightpink;
+	padding: 50px;
+	font-size: 70px;
+	text-align: center;
+	font-family:Playfair Display;
+}
+
+h2 {
+	background-color: lightblue;
+	padding: 30px;
+	font-size: 50px;
+	text-align: right;
+	letter-spacing: 3px;
+	font-family: Quintessential;
+}
+
+p {
+	font-size:20px;
+	line-height:1.5;
+	text-align: justify;
+	padding:30px;
+	font-family:Roboto;
+	column-count: 3;
+
+}
+
+body{
+	background: linear-gradient(90deg, rgba(242,93,108,1) 0%, rgba(144,148,255,1) 100%);
+}
