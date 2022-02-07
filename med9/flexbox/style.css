@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair+Display:wght@500&family=Quintessential&family=Roboto:wght@100&display=swap');
+
+
+.first-flex {
+display: flex;
+justify-content: center;
+align-items: center;
+height:400px;
+background-color: lightblue;
+}
+
+h1 {
+	background-color: red;
+	font-family: "Dancing Script";
+}
+
+.strech-flex {
+	display:flex;
+	justify-content:space-between;
+	align-items:stretch;
+	height:400px;
+	background-color:lightgreen;
+}
+
+p{
+	background-color: pink;
+}
+
+.third-flex {
+	height:400px;
+	background-color: seagreen;
+	display: flex;
+	justify-content: space-between;
+	align-items:flex-end;
+}
+
+.fourth-flex {
+	height:400px;
+	background-color:grey;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+
+img {
+	width: 200px;
+}
+
+.fifth-flex {
+	height:400px;
+	background-color:purple;
+	display:flex;
+	align-items:flex-start;
+	justify-content: center;
+	background: linear-gradient(90deg, rgba(242,93,108,1) 0%, rgba(144,148,255,1) 100%);
+}
+
