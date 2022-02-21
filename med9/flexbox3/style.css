@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Oswald:wght@300&family=Playfair+Display:wght@500&family=Quintessential&family=Roboto:wght@100&display=swap');
+
+body{
+	margin: 0;
+}
+
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+	background-color: lightblue;
+	background-image: url(background.jpg);
+	background-size:cover;
+	background-position:center;
+}
+
+header h1 {
+	background-color: rgba(255,255,255,0.5);
+	padding:20px;
+	border-radius:20px;  
+	font-family: Oswald ;
+}
+
+main {
+	background: linear-gradient(90deg, rgba(242,93,108,1) 0%, rgba(176,102,179,1) 50%, rgba(105,111,255,1) 100%);
+	padding: 100px;
+}
+
+main p {
+	column-count: 2;
+	font-family: Oswald ;
+	font-size: 23px;
+
+}
+
+footer {
+	height: 300px;
+	display:flex;
+	justify-content: space-evenly;
+	align-items:center;
+	background-image: url(bild.jpg);
+	background-size:cover;
+	background-position:center;
+}
+
+footer p {
+	font-size: 25px;
+	color:black;
+	background-color: rgba(255,255,255,0.5);
+	border-radius:20px;
+    padding: 30px;
+    font-family: Oswald;
+}
+
