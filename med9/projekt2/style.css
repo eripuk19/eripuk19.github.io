@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Oswald:wght@300&family=Playfair+Display:wght@500&family=Quintessential&family=Raleway:wght@100&family=Roboto:wght@100&display=swap');
+
+h1 {
+display: flex;
+align-items:center;
+justify-content:center;
+padding:50px;
+height:100px;
+font-family: Raleway;
+}
+
+h2 {
+display: flex;
+align-items:center;
+justify-content:center;
+padding:20px;
+	margin:50px;
+	height:100px;
+	font-family: Dancing Script;
+}
+
+p{
+padding:20px;
+	margin:50px;
+	height:100px;
+	font-family: Raleway;
+
+}
+
+.a{
+	display: flex;
+	border-style: dotted;
+	color: black;
+	margin: 50px;
+	padding: 20px;
+	height:30px;
+	align-items:center;
+justify-content:center;
+}
+
+.c{
+	display: flex;
+	border-style: dotted;
+	align-items:stretch;
+	justify-content: space-between;
+	margin: 50px;
+	height: 100px;
+	background: linear-gradient(90deg, rgba(242,93,108,1) 0%, rgba(179,102,102,1) 0%, rgba(162,162,162,1) 0%);
+}
+
+#b {
+		display: flex;
+align-items:center;
+justify-content:center;
+border-style: dotted;
+background-color: white;
+padding:20px;
+margin: 50px;
+height:100px;
+background: linear-gradient(90deg, rgba(242,93,108,1) 0%, rgba(176,102,179,1) 50%, rgba(105,111,255,1) 100%);
+}
+
+img{
+	height: 100px;
+	width: 50px;
+	padding:1px;
+	border:1px;
+	border-color: white;
+
+}
+
+#d {
+	display: flex;
+align-items:center;
+justify-content:center;
+border-style: dotted;
+background-color: white;
+padding:20px;
+margin: 50px;
+background: linear-gradient(90deg, rgba(242,93,108,1) 0%, rgba(179,102,102,1) 0%, rgba(0,9,226,1) 0%);
+}
+
+footer {
+	display: flex;
+align-items:center;
+justify-content:center;
+border-style: dotted;
+background-color: white;
+justify-content: space-evenly;
+align-items: flex-end;
+background: linear-gradient(90deg, rgba(242,93,108,1) 0%, rgba(179,102,102,1) 0%, rgba(0,5,113,1) 0%);
+}
+
+.a p{
+	column-count: 3;
+}
+
+.c p{
+	background-color: white;
+}
+
+#b p{
+	background-color: white;
+}
+
+footer p {
+	background-color: white;
+}
