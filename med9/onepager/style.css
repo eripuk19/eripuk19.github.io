@@ -1,0 +1,77 @@
+/*
+*
+* Title: Website über Bahamas
+* Author: Erisa Puka
+* Date: 28.03.2022
+*
+**/
+
+
+/************************* General Style **************************/
+
+/* Navigation */
+
+:root{
+	scroll-behavior: smooth;
+}
+body {
+	margin: 0px;
+}
+
+nav {
+	background-color: lightpink;
+	height: 100px ;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	box-sizing:border-box;
+}
+
+nav img {
+	height: 90px;
+	border-radius: 45%;
+}
+
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+    list-style-type: none;
+}
+
+nav ul li a {
+	margin: 10px;
+	padding: 20px;
+	background-color: white;
+	color: lightblue;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	background-color: lightblue;
+	color: white;
+}
+
+section {
+	padding: 300px;
+}
+
+#link1 {
+	background-color: lightsteelblue;
+}
+
+#link2 {
+	background-color: lightcoral;
+}
+
+#link3 {
+	background-color: lightseagreen;
+}
+
+
