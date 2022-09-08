@@ -1,0 +1,37 @@
+
+body {
+	margin: 0; 
+	 background-color: darkgrey;
+}
+nav {
+	background-color: lightgrey;   
+	 display: flex;  
+	   align-items: center;    
+	padding: 10px;
+}
+nav img {
+	height: 160px;   
+	 padding: 0px;
+}
+
+nav ul {
+	display: flex;   
+	   align-items: center;    
+	list-style-type: none;
+}
+nav ul li a {
+	 margin: 20px;   
+	 padding: 20px;
+	color: white; 
+	text-decoration: none;   
+	 background-color: lightcoral;   
+	 border-radius: 15px;    
+	text-transform: uppercase;
+}
+nav ul li a:hover {
+	background: linear-gradient(90deg, rgba(144,48,98,1) 10%, rgba(164,39,60,1) 61%);
+}
+
+
+
+
