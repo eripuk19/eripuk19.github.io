@@ -1,0 +1,62 @@
+.ball {
+        width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		margin:10px;
+		animation:bounce 2s;
+		animation-iteration-count: infinite;
+}
+
+.blue {
+    background-color: lightblue;
+   animation-delay: 0.20s;
+   
+}
+
+.red {
+    background-color: lightgreen ;
+    animation-delay: 0.40s;
+}
+
+.pink {
+     background-color: violet;
+     animation-delay: 0.60s;
+}
+
+.purple {
+      background-color: lightpink;
+      animation-delay: 0.80s;
+}
+
+.container {
+	display: flex;
+	justify-content:center; 
+	align-items:center;
+	height: 300px;
+
+}
+
+  .text {
+  	letter-spacing: 5px;
+  	opacity: 1.8;
+  	display: flex;
+  	align-items: flex-start;
+  	justify-content: center;
+   animation: opacity;
+   animation-iteration-count: infinite;
+     animation-duration: 2s;
+}
+
+@keyframes opacity {
+	0% {opacity:100;}
+	50% {opacity:0;}
+	100% {opacity:100;}
+}
+
+@keyframes bounce {
+	0% {transform: translateY(0);}
+	50% {transform: translateY(25px);}
+	100% {transform: translateY(0);}
+}
+
+
