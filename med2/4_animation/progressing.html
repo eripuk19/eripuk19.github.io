@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>progressing</title>
+</head>
+
+<style>
+	html {
+		background-color: #2a9d8f
+	}
+	
+.text {
+	color:orange;
+	margin-bottom: 15px;
+}
+.bar {
+	top:200px;
+	height: 10px;
+	width: 250px;
+	border:10px solid #f4a261;
+	border-radius: 15px;
+	animation-name: loading;
+	animation: loader 2s;
+	animation-iteration-count: infinite;
+	transition-timing-function: linear;
+}
+
+.progressing {
+	animation-fill-mode: forwards;
+	animation: loading 2s;
+	height: 10px;
+	background-color: white;
+}
+
+@keyframes loading {
+0%  {width: 0%;}
+25% {width: 50%;}
+50% {width: 75%;}
+75% {width: 85%;}
+100% {width: 100%;}
+}
+
+
+
+</style>
+<body>
+  <div class="text">Processing</div>
+  <div class="bar">
+  	<div class="progressing"></div>
+   </div>
+</body>
+</html>
